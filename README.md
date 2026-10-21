@@ -1,5 +1,22 @@
 # futly logo concepts
 
+## Round 2: scoreboard pixel (current direction)
+
+`concepts/scoreboard-pixel/` holds a custom pixel wordmark for futly, after the
+user's reference: white letters on a pixel grid with a vertical light bar
+behind them, built like the lights on a stadium scoreboard.
+
+- `hero-<colour>.svg`: wordmark over the light bar (`night-match`, `floodlight`, `scoreboard-amber`)
+- `hero-led-<colour>.svg`: the same, with LED-bulb letters
+- `icon-<colour>.svg`: app icon, pixel f on the light bar
+- `led-white.svg`, `led-amber.svg`: dot-matrix wordmark on a scoreboard panel
+- `wordmark-white.svg`, `wordmark-ink.svg`: plain wordmark for dark and light backgrounds
+
+The letters are drawn as pixel grids in `tools/build_pixel.py` (no fonts
+needed); run `python3 tools/build_pixel.py` to regenerate.
+
+## Round 1
+
 Five logo directions for futly, a platform for booking turfs. Each folder in
 `concepts/` holds outlined SVGs (no font files needed):
 
