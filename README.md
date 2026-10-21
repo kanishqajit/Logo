@@ -1,5 +1,21 @@
 # futly logo concepts
 
+## Final direction: futly brand v1.0 (current)
+
+`brand/` holds the refined identity, built by `tools/build_brand.py`:
+a custom pixel wordmark (10 px x-height, 2 px strokes, 1 px corner steps,
+extended proportions after the user's reference) and an indigo-to-violet
+floodlight beam centred on the t.
+
+- `futly-wordmark-{white,black,indigo}.svg`: the logo
+- `futly-signature.svg`: wordmark with its beam, transparent background
+- `futly-app-icon.svg` / `futly-app-icon-flat.svg`: app icon (flat for small sizes)
+- `futly-symbol-black.svg`: one-colour f
+- `futly-hero.svg`: launch artwork (uses a grain filter; not a logo master)
+
+Colours: Night #06070A, Floodlight #3A34FF, Afterglow #8E4BFF, Chalk #F4F4F7,
+beam #14109E → #3A34FF → #8E4BFF.
+
 ## Round 3: professional concepts (current)
 
 `concepts/round3/` holds three concepts built with the logo-design skill on
