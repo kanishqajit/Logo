@@ -1,6 +1,21 @@
 # futly logo concepts
 
-## Final direction: futly brand v1.0 (current)
+## Identity v2: geometric ball-terminal f (current)
+
+`brand-v2/` holds a geometric identity built from bars and one radius pair
+(outer radius = 2 × stroke, inner = 1 × stroke), after the balance of the
+Futspot reference (not its shapes). The f's ball terminal is the ball,
+placed on the hook's centre line a quarter-stroke past its end.
+
+- `futly-symbol-black.svg`, `futly-wordmark-black.svg`
+- `futly-lockup-{chalk-volt,black,white}.svg`: symbol spans ascender to baseline, gap 1.5 strokes
+- `slides/`: six 1080×1350 presentation slides (SVG + PNG)
+
+Built by `tools/build_geo.py` and `tools/build_geo_slides.py` (needs `shapely`
+for the outlined grid slide). Colours: pitch-night #141A17, chalk #EEF1EC,
+volt #C8F23C (the ball only).
+
+## futly brand v1.0 (pixel)
 
 `brand/` holds the refined identity, built by `tools/build_brand.py`:
 a custom pixel wordmark (10 px x-height, 2 px strokes, 1 px corner steps,
