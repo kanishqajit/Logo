@@ -45,3 +45,10 @@ Fonts TTFs in `fonts/` (or a folder named by `FUTLY_FONTS`): `outfit.ttf`
 pip install fonttools
 python3 tools/build_logos.py concepts
 ```
+
+## Logo design skill
+
+`.claude/skills/logo-design/` is the
+[logo-design skill](https://github.com/kaankiziltug/logo-design-skill) (v1.4.5,
+MIT), vendored so Claude Code sessions in this repo can use it. Its PNG
+renderer needs `pip install cairosvg` (or librsvg / Inkscape).
