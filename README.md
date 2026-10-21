@@ -1,6 +1,19 @@
 # futly logo concepts
 
-## Round 2: scoreboard pixel (current direction)
+## Round 3: professional concepts (current)
+
+`concepts/round3/` holds three concepts built with the logo-design skill on
+one pixel system (`tools/build_round3.py`), drawn black first and tested
+(`sheets/test-sheet.png`). Earlier iterations are kept as `-v1`/`-v2`/`-v3`.
+
+- **A, Slot f (recommended):** booked cells in a 5×5 booking grid spell a
+  lowercase f; the single round cell at its foot is the ball. A fused
+  small-size cut (`a-slot-f-symbol-small.svg`) is for 16–24 px.
+- **B, Full Time:** f and t share one crossbar, the "FT" every scoreboard
+  shows at full time.
+- **C, Net u:** the u, seen from above, is a goal with the ball in the net.
+
+## Round 2: scoreboard pixel
 
 `concepts/scoreboard-pixel/` holds a custom pixel wordmark for futly, after the
 user's reference: white letters on a pixel grid with a vertical light bar
