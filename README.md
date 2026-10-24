@@ -2,11 +2,11 @@
 
 ## Identity v3: generative bar system (current)
 
-`brand-v3/` holds a generative identity of slanted (28°), kinked bars with
+`brand-v3/` holds a generative identity of slanted (30°), kinked bars with
 rounded corners, plus an oblique custom wordmark whose l carries the same
 kink. Built by `tools/build_bars.py` (needs `shapely`).
 
-Rules: every bar leans 28°; each bar kinks once by about half its width;
+Rules: every bar leans 30°; each bar kinks once by about half its width;
 left to right each kink sits at least 16 units below the last, so the
 channels between bars open into pockets and never pinch; 3–5 bars, never 2,
 so no mark reads as a pair of lightning bolts (the reference's paired bolts

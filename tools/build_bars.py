@@ -9,7 +9,7 @@ from shapely.geometry import box
 from shapely.ops import unary_union
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'brand-v3'
-SKEW = 28                         # degrees; the bars lean right
+SKEW = 30                         # degrees; the bars lean right
 K = 0.5523                        # cubic quarter-circle constant
 
 def f2(v):
