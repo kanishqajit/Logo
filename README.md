@@ -1,6 +1,23 @@
 # futly logo concepts
 
-## Identity v2: geometric ball-terminal f (current)
+## Identity v3: generative bar system (current)
+
+`brand-v3/` holds a generative identity of slanted (28°), kinked bars with
+rounded corners, plus an oblique custom wordmark whose l carries the same
+kink. Built by `tools/build_bars.py` (needs `shapely`).
+
+Rules: every bar leans 28°; each bar kinks once by about half its width;
+left to right each kink sits at least 16 units below the last, so the
+channels between bars open into pockets and never pinch; 3–5 bars, never 2,
+so no mark reads as a pair of lightning bolts (the reference's paired bolts
+resemble the SS runes). Colours: ink #0B0D0A, volt #DDFB5A, chalk #F3F5EE,
+pitch #0F5A33.
+
+- `futly-symbol-ink.svg`, `futly-symbol-volt-tile.svg`
+- `futly-wordmark-ink.svg`
+- `futly-lockup-{ink,on-volt,on-ink}.svg`
+
+## Identity v2: geometric ball-terminal f
 
 `brand-v2/` holds a geometric identity built from bars and one radius pair
 (outer radius = 2 × stroke, inner = 1 × stroke), after the balance of the
